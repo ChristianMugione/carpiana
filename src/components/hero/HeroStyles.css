@@ -3,6 +3,9 @@
   background-size: cover;
   width: 100%;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -16,17 +19,31 @@
 }
 
 .hero-text {
-  width: 50%;
+  /* width: 50%; */
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
+  justify-content: center;
   color: white;
-  text-shadow: 0 0 8px black;
+  text-shadow: 0 0 15px darkslateblue;
+  gap: 8px;
 }
 
-.hero-img {
-  width: 50%;
+.hero-btns {
+  display: flex;
+  gap: 8px;
 }
+
+.hero-btns button {
+  border: 1px solid white;
+  background-color: #f8f6f7;
+}
+
+.hero-btns button:last-child {
+  background: transparent;
+  color: #f8f6f7;
+}
+
 
 h2 {
   margin: 0;

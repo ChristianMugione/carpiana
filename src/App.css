@@ -6,3 +6,15 @@ body,
   display: flex;
   justify-content: center;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/*
+	540px	720px	960px	1140px	1320px
+*/

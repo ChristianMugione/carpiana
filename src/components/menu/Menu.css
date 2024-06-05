@@ -1,0 +1,19 @@
+.main-menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* position: fixed; */
+    /* top: 0; */
+    /* z-index: 1; */
+
+    padding: 6px;
+    gap: 4%;
+
+    border: 1px solid white;
+}
+
+.main-menu a {
+    color: #f8f6f7;
+
+    border: 1px solid white;
+}
