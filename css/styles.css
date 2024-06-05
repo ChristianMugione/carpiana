@@ -1,0 +1,250 @@
+/* Hoja de Estilos de Carpiana.com */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+:root {
+  --naranja: #ff7f27;
+  --marron: #b34d09;
+  --azul: #280dff;
+  --azul-oscuro: #2412b3;
+  --verde: #51ff40;
+  --blanco: #f4f4f1;
+  --negro: #000;
+  --gris-oscuro: rgb(21, 21, 21);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  /* border: 1px solid red; */
+}
+
+body {
+  background-color: var(--negro);
+  font-family: "Montserrat", sans-serif;
+  color: var(--blanco);
+  text-align: center;
+}
+
+/* Header */
+
+header {
+  background: rgb(0, 0, 0);
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.logo-nav {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+#logo-full {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#logo-full a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.marca-slogan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.logo-marca {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--naranja);
+  text-shadow: 0 0 2px var(--blanco);
+}
+
+.logo-desc {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: var(--naranja);
+  text-shadow: 0 0 2px var(--blanco);
+}
+
+header a img {
+  width: 60px;
+}
+
+nav {
+  color: var(--blanco);
+}
+
+nav ul {
+  color: var(--blanco);
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.bolder {
+  font-weight: 800;
+}
+
+nav a {
+  color: var(--blanco);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* Main */
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  padding-bottom: 50px;
+  margin-bottom: 5px;
+  box-shadow: 0 2px 5px black;
+}
+
+.main-cont {
+  display: flex;
+  width: 90%;
+  gap: 20px;
+}
+
+.main-cont-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  width: 50%;
+  color: #ccc;
+}
+
+.main-cont-img {
+  width: 50%;
+}
+
+.main-cont-img img {
+  width: 80%;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 38px;
+  background: linear-gradient(
+    to right,
+    var(--marron),
+    var(--naranja),
+    var(--marron)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-bottom: 30px;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.separador-one {
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(to bottom, black, white);
+}
+
+#nosotros {
+  display: flex;
+  width: 100%;
+  background: #fff;
+  color: #000;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.nosotros-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  gap: 20px;
+}
+
+.nosotros-cont-img {
+  width: 40%;
+}
+
+.nosotros-cont-img img {
+  border-radius: 50%;
+  box-shadow: 0 3px 5px #000;
+  width: 100%;
+}
+
+.nosotros-cont-text {
+  width: 60%;
+  text-align: start;
+}
+
+#servicios {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--marron);
+}
+
+.servicios-spacer {
+  width: 100%;
+  height: 60px;
+  background: linear-gradient(to top, var(--marron), white);
+}
+
+.servicios-cards {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  background: rgba(255, 255, 255, 20%);
+  border-radius: 20px;
+  box-shadow: 0 2px 5px #fff;
+}
+
+.card-one {
+  animation: desde-abajo 0.5s ease-out;
+  -webkit-animation: desde-abajo 0.5s ease-out;
+}
+
+.card-two {
+  animation: desde-abajo 0.4s ease-out;
+  -webkit-animation: desde-abajo 0.4s ease-out;
+}
+
+.card-three {
+  animation: desde-abajo 0.35s ease-out;
+  -webkit-animation: desde-abajo 0.35s ease-out;
+}
