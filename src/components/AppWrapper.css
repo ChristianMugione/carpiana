@@ -1,44 +1,40 @@
-.header {
+.main-container {
   display: flex;
-  width: 90%;
-  max-width: 460px;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
 
-  position: fixed;
-  top: 0;
-  z-index: 1;
+.container {
+  width: 90%;
 }
 
 @media (min-width: 576px) {
-  .header {
+  .container {
     max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
-  .header {
+  .container {
     max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
-  .header {
+  .container {
     max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
-  .header {
+  .container {
     max-width: 1140px;
   }
 }
 
 @media (min-width: 1400px) {
-  .header {
+  .container {
     max-width: 1320px;
   }
 }
-
-/*
-	540px	720px	960px	1140px	1320px
-*/

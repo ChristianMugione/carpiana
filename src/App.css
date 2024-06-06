@@ -15,6 +15,7 @@ body,
   text-decoration: none;
 }
 
-/*
-	540px	720px	960px	1140px	1320px
-*/
+.logo {
+  display: flex;
+  align-items: center;
+}
