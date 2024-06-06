@@ -1,6 +1,6 @@
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   position: absolute;
   bottom: 2%;
   color: #f8f6f7;

@@ -3,10 +3,17 @@
   width: 90%;
   max-width: 460px;
   justify-content: space-between;
+  align-items: center;
 
   position: fixed;
   top: 0;
   z-index: 1;
+}
+
+.header svg {
+  width: 25px;
+  height: 25px;
+  fill: #f8f6f7;
 }
 
 @media (min-width: 576px) {

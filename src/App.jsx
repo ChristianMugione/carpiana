@@ -1,3 +1,4 @@
+import { BsPersonCircle } from "react-icons/bs";
 import "./App.css";
 import { AppWrapper } from "./components/AppWrapper";
 import { Header } from "./components/header/Header";
@@ -9,8 +10,9 @@ function App() {
   return (
     <AppWrapper>
       <Header>
-        <div className="logo">CARPIANA</div>
+        <h1 className="logo">CARPIANA</h1>
         <Menu />
+        <BsPersonCircle/>
         <Usermenu />
       </Header>
       <Hero />

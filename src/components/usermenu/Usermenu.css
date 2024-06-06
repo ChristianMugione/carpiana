@@ -1,5 +1,32 @@
 .user-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  /* display: none; */
+}
+
+.user-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-menu li {
+  padding: 8px;
   display: flex;
   gap: 8px;
   align-items: center;
+  color: #000;
+  cursor: pointer;
+}
+
+.user-menu li:hover {
+  background-color: #f5f5f5;
+  border-radius: 4px;
 }
