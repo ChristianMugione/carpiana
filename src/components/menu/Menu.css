@@ -9,4 +9,13 @@
 
 .main-menu a {
   color: #f8f6f7;
+  text-decoration: none;
+  cursor: pointer;
+
+  transition: color 0.25s;
+}
+
+.main-menu a:hover {
+  color: #f8f6f788;
+  transition: color 0.25s;
 }

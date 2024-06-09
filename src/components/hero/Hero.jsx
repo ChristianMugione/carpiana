@@ -7,7 +7,10 @@ export const Hero = () => {
       <main className="hero-container">
         <div className="hero-text">
           <h2>CREAMOS TU PRESENCIA ONLINE</h2>
-          <h3>Desarrollamos sitios web que cautivan y convierten</h3>
+          <h3>
+            Desarrollamos el sitio web ideal para potenciar la imagen de tu
+            proyecto
+          </h3>
           <div className="hero-btns">
             <button>COMENCEMOS YA!</button>
             <button>MAS INFO</button>
