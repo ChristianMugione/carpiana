@@ -28,7 +28,7 @@
   align-items: center;
   justify-content: center;
   color: white;
-  text-shadow: 0 0 1em black;
+  /* text-shadow: 0 0 1em black; */
   /* #cb80ff; */
   gap: 2px;
 }
@@ -55,7 +55,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0;
-  text-shadow: 0 0 1em var(--accent-100);
+  /* text-shadow: 0 0 1em red; */
+  /* var(--accent-100); */
 }
 
 .hero-text h3 {
