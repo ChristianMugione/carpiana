@@ -35,7 +35,7 @@
 
 .hero-text::after {
   content: "";
-  background: radial-gradient(#cb80ff33, #cb80ff11 40%, transparent 70%);
+  background: radial-gradient(#cb80ff44, #cb80ff11 40%, transparent 70%);
   width: 100%;
   height: 100%;
   position: absolute;

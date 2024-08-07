@@ -13,13 +13,13 @@
 .header svg {
   width: 25px;
   height: 25px;
-  fill: #f8f6f7;
+  fill: #f8f6f788;
   cursor: pointer;
   transition: fill 0.25s;
 }
 
 .header svg:hover {
-  fill: #f8f6f788;
+  fill: #f8f6f7;
   transition: fill 0.25s;
 }
 

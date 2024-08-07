@@ -8,7 +8,7 @@
 }
 
 .main-menu a {
-  color: #f8f6f7;
+  color: #f8f6f788;
   text-decoration: none;
   cursor: pointer;
 
@@ -16,6 +16,6 @@
 }
 
 .main-menu a:hover {
-  color: #f8f6f788;
+  color: #f8f6f7;
   transition: color 0.25s;
 }
